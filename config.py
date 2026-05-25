@@ -1,0 +1,32 @@
+# Timeframes
+ENTRY_TIMEFRAME = "M5"
+SETUP_TIMEFRAME = "H1"
+
+# ATR Settings
+ATR_PERIOD = 14
+ATR_COMPRESSION_THRESHOLD = 0.70
+
+# Bollinger Bands
+BB_PERIOD = 20
+BB_STD = 2
+
+# EMA
+EMA_PERIOD = 200
+
+# Compression
+OVERLAP_CANDLES = 12
+MIN_OVERLAPS = 8
+
+# Breakout
+BREAKOUT_BODY_FACTOR = 1.5
+
+# Pullback
+PULLBACK_MIN = 0.30
+PULLBACK_MAX = 0.60
+
+# Risk Management
+ATR_SL_MULTIPLIER = 1.2
+
+# Compression Range
+MIN_RANGE_PIPS = 10
+MAX_RANGE_PIPS = 60
